@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 100%;
+  height: 170vh;
+  background-color: aqua;
+  transition: all 0.5s ease;
+}
+.work:hover {
+  background-color: rgb(167, 161, 161);
+}
+.container:hover {
+  background-color: deeppink;
+}
+.name {
+  font-size: 2em;
+  text-align: center;
+  padding: 40px;
+}
+.name h2,
+p {
+  padding: 20px;
+}
+.work {
+  width: 70%;
+  height: 170vh;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+.about {
+  padding: 40px;
+}
+.about h3 {
+  font-weight: bolder;
+}
+.about ul {
+  padding-left: 40px;
+  padding-top: 7px;
+}
+.about p a {
+  font-weight: bolder;
+  text-decoration: none;
+}
+.about h5 {
+  font-size: 1em;
+  padding: 20px;
+}
+button {
+  font-weight: bolder;
+  padding: 20px;
+  background-color: aqua;
+  color: black;
+  border: none;
+  margin-left: 20px;
+  transition: all 0.5s ease-in;
+}
+button:hover {
+  background-color: chocolate;
+  color: wheat;
+}
+.content {
+  position: absolute;
+  top: 0;
+  left: 70%;
+}
+.content img {
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.3) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  margin: 20px 0px 0px 90px;
+  height: 300px;
+}
+.content .edu {
+  padding: 40px;
+  font-size: 1.2em;
+}
+.content h5 {
+  padding: 20px;
+}
+.content .lang {
+  padding: 40px;
+  font-size: 1.2em;
+}
+pre {
+  padding-right: 10px;
+}
